@@ -1,2 +1,5 @@
 # seven-mobile-apps
-Source code, and tips for the 'Seven Mobile Apps in Seven Days' book
+
+Repo for the team to do the 'Seven Mobile Apps in Seven Weeks' book.
+
+For details on how to contribute, see the CONTRIBUTING.md file.
