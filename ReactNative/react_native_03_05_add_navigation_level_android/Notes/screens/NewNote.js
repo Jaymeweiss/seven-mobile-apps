@@ -8,13 +8,13 @@
 ***/
 'use strict';
 
-import React, {
-  AppRegistry,
-  View,
-  TextInput,
-  Text,
-  TouchableOpacity,
-  Component,
+import React, {Component} from 'react'; 
+import {
+    AppRegistry,
+    View,
+    TextInput,
+    Text,
+    TouchableOpacity,
 } from 'react-native';
 
 import styles from '../styles';
