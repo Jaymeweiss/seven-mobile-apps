@@ -8,9 +8,9 @@
 ***/
 'use strict';
 
-import React, {
+import React, {Component} from 'react';
+import {
   View,
-  Component,
   MapView,
 } from 'react-native';
 

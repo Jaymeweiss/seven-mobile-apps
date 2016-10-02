@@ -8,12 +8,12 @@
 ***/
 'use strict';
 
-import React, {
+import React, {Component} from 'react'; 
+import {
   AppRegistry,
   View,
   Text,
   ListView,
-  Component,
 } from 'react-native';
 
 import NoteCell from './cells/NoteCell';
