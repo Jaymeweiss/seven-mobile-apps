@@ -8,12 +8,12 @@
 ***/
 'use strict';
 
-import React, {
-  AppRegistry,
-  StyleSheet,
-  View,
-  TextInput,
-  Component,
+import React, {Component} from 'react'; 
+import {
+    AppRegistry,
+    StyleSheet,
+    View,
+    TextInput,
 } from 'react-native';
 
 class NewNote extends Component {
