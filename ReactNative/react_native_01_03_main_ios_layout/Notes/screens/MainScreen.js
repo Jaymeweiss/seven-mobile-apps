@@ -8,12 +8,12 @@
 ***/
 'use strict';
 
-import React, {
+import React, { Component } from 'react';
+import {
   AppRegistry,
   StyleSheet,
   View,
   Text,
-  Component,
 } from 'react-native';
 
 class MainScreen extends Component {
