@@ -8,9 +8,9 @@
 ***/
 'use strict';
 
-import React, {
+import React, { Component } from 'react';
+import {
   AppRegistry,
-  Component,
 } from 'react-native';
 
 import MainScreen from './screens/MainScreen';
@@ -21,6 +21,5 @@ class Notes extends Component {
       <MainScreen />
     );
   }
-};
-
+}
 AppRegistry.registerComponent('Notes', () => Notes);
