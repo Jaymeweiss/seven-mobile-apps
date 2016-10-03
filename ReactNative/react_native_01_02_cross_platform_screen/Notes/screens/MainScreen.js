@@ -8,37 +8,36 @@
 ***/
 'use strict';
 
-import React, {
-  AppRegistry,
-  StyleSheet,
-  View,
-  Text,
-  Component,
+import React, {Component} from 'react'; 
+import {
+    AppRegistry,
+    StyleSheet,
+    View,
+    Text,
 } from 'react-native';
 
 class MainScreen extends Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.instructions}>
-          Create a note.
-        </Text>
-      </View>
-    );
-  }
+    render() {
+        return (
+            <View style={styles.container}>
+                <Text style={styles.instructions}>
+                    Create a note.
+                </Text>
+            </View>
+        );
+    }
 };
-
 module.exports = MainScreen;
 
 var styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5F5F5',
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#A0A0A0',
-  },
+    container: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: '#F5F5F5',
+    },
+    instructions: {
+        textAlign: 'center',
+        color: '#A0A0A0',
+    },
 });

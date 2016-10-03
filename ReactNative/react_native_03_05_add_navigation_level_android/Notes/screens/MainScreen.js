@@ -9,14 +9,14 @@
 'use strict';
 
 
-import React, {
-  AppRegistry,
-  View,
-  Text,
-  ListView,
-  Component,
-  TouchableOpacity,
-  ViewPagerAndroid,
+import React, {Component} from 'react'; 
+import {
+    AppRegistry,
+    View,
+    Text,
+    ListView,
+    TouchableOpacity,
+    ViewPagerAndroid,
 } from 'react-native';
 
 import NoteList from './NoteList';

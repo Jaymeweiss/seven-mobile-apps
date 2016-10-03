@@ -8,10 +8,10 @@
 ***/
 'use strict';
 
-import React, {
+import React, {Component} from 'react';
+import {
   View,
   Text,
-  Component,
 } from 'react-native';
 
 import styles from '../../styles';

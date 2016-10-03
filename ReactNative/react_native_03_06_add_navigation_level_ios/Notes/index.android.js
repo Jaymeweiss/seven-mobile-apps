@@ -8,12 +8,12 @@
 ***/
 'use strict';
 
-import React, {
+import React, { Component } from 'react';
+import {
   View,
   ToolbarAndroid,
   AppRegistry,
   Navigator,
-  Component,
 } from 'react-native';
 
 import MainScreen     from './screens/MainScreen';

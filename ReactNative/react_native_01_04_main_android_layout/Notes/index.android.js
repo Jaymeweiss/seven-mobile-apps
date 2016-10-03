@@ -8,27 +8,26 @@
 ***/
 'use strict';
 
-import React, {
-  View,
-  ToolbarAndroid,
+import React, { Component } from 'react';
+import {
   AppRegistry,
   Navigator,
+  View,
+  ToolbarAndroid,
   StyleSheet,
-  Component,
 } from 'react-native';
 
 import MainScreen from './screens/MainScreen';
 
 class Notes extends Component {
-
   constructor(props) {
     super(props)
     this.menuActions = [
-      { title: 'New', show: 'ifRoom' }
+      {title: 'New', show: 'ifRoom' }
     ]
   }
 
-  render() {
+ render() {
     return (
       <Navigator
           initialRoute={{name: 'Notes', index: 0}}
